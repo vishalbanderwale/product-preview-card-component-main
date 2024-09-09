@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+article {
+  display: flex;
+  max-width: 50vw;
+  height: 500px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 2rem;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.details p {
+  width: 80%;
+}
+
+.details h1 {
+  width: 80%;
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+}
+
+h3 {
+  color: hsl(228, 12%, 48%);
+  font-size: 1.5rem;
+}
+
+h3 span {
+  font-size: 1rem;
+  text-decoration: line-through;
+  font-weight: normal;
+  margin-left: 5px;
+}
+.details p:first-child {
+  text-transform: uppercase;
+}
+
+.details h1 {
+  font-size: 1.8rem;
+}
+
+.details button {
+  width: 80%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+.details button .btn-icon {
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
